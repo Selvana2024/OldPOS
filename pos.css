@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #333;
+  height: 10vh;
+  position: relative;
+  position: sticky;
+  top: 0;
+}
+.first-icon {
+  color: aliceblue;
+  font-size: 25px;
+  position: absolute;
+  top: 30%;
+  left: 2%;
+}
+.second-icon {
+  color: aliceblue;
+  font-size: 25px;
+  position: absolute;
+  top: 30%;
+  left: 43.5%;
+  display: flex;
+  gap: 40px;
+}
+.bills {
+  color: aliceblue;
+  font-size: 25px;
+  position: absolute;
+  top: 30%;
+  right: 2%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.cartCount {
+  font-size: 15px;
+}
+.herosection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #555;
+}
+.sidebar {
+  height: fit-content;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 20px;
+  position: sticky;
+  top: 10%;
+}
+.menu-icon {
+  padding: 2rem;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  color: white;
+}
+.menu-icon p {
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.icon1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.container {
+  padding: 30px 0;
+}
+.products {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.pro {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  background-color: antiquewhite;
+  padding: 7px;
+  box-shadow: -6px -6px #333;
+}
+.pro:hover {
+  border: 2px orangered solid;
+}
+.pro:hover .name {
+  letter-spacing: 1px;
+}
+.pro img {
+  border-radius: 16px;
+  width: 180px;
+  height: 150px;
+  object-fit: fill;
+}
+.price {
+  color: orangered;
+}
+.sideCart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 350px;
+  background-color: #333;
+  z-index: 99;
+  border-left: 1px solid #555;
+}
+.exit {
+  color: white;
+  padding: 10px;
+}
+.productInCart{
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
